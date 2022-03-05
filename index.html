@@ -1,613 +1,710 @@
 <!DOCTYPE html>
 <html lang="ar">
-<head>
+  <head>
     <title>GameNews Template</title>
     <!-- Start Meta -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- End Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Main Css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- End Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-    <!-- End Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <!-- End Awesome -->
-    <link rel="icon" href="img/icon/icon.png">  <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
 
-</head>
-<body>
-
-<!-- Header -->
-<header id="Header">
-    <div class="col1">
+    <!-- Icon -->
+    <link rel="icon" href="img/icon/icon.png" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="Header">
+      <div class="col1">
         <div class="img">
-            <img src="img/icon/icon.png" alt="">
+          <img src="img/icon/icon.png" alt="" />
         </div>
-    </div>
-    <div class="col2">
-       <ul>
-           <li>
-               <i class="fas fa-sort-down"></i>
-               <a href="#">قواعد البينات</a>
-               <ul>
-                   <li> <i class="fas fa-gamepad"></i> <a href="#" class="al">العاب</a></li>
-               </ul>
-            </li>
-           <li>
-               <i class="fas fa-sort-down"></i>
-               <a href="#">تكنولوجيا</a>
-               <ul>
-                   <li><a href="#">سوفت وير</a></li>
-                   <li><a href="#">هارد وير</a></li>
-               </ul>
-            </li>
-           <li>
-               <i class="fas fa-sort-down"></i>
-               <a href="#">المزيد</a>
-               <ul>
-                   <li><a href="#">رياضات إلكترونية</a></li>
-               </ul>
-            </li>
-           <li>
-               <a href="#">العاب</a>
-            </li>
-       </ul>
-    </div>
-    <div class="col3">
-        <a href="#"> <i class="fas fa-random"></i>  </a>
-        <a href="#"> <i class="fas fa-adjust"></i>  </a>
+      </div>
+      <div class="col2">
+        <ul>
+          <li>
+            <i class="fas fa-sort-down"></i>
+            <a href="#">قواعد البينات</a>
+            <ul>
+              <li>
+                <i class="fas fa-gamepad"></i> <a href="#" class="al">العاب</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <i class="fas fa-sort-down"></i>
+            <a href="#">تكنولوجيا</a>
+            <ul>
+              <li><a href="#">سوفت وير</a></li>
+              <li><a href="#">هارد وير</a></li>
+            </ul>
+          </li>
+          <li>
+            <i class="fas fa-sort-down"></i>
+            <a href="#">المزيد</a>
+            <ul>
+              <li><a href="#">رياضات إلكترونية</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">العاب</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col3">
+        <a href="#"> <i class="fas fa-random"></i> </a>
+        <a href="#"> <i class="fas fa-adjust"></i> </a>
         <a href="#"> <i class="far fa-search"></i> </a>
         <a href="#"> <i class="fas fa-user-circle"></i> </a>
         <a href="#">+ تابعنا</a>
-    </div>
-        <input type="checkbox" name="" id="check">
-        <label for="check">
-            <i class="far fa-stream mopile" id="open"></i>
-            <i class="far fa-times   mopile " id="cancle"></i>
-        </label>
-        <div class="smheader">
-            <div class="emp"></div>
-          <div class="ul">
-            <ul dir="rtl">
-                <li>
-                    قواعد البيانات  &nbsp;
-                    <i class="fas fa-sort-down"></i>
-                    <ul> <li>ألعاب</li> </ul>
-                </li>
-                <li>
-                    تكنولوجيا &nbsp;
-                    <i class="fas fa-sort-down"></i>
-                    <ul> <li>سوفتوير</li> <li>هاردوير</li> </ul>
-                </li>
-                <li>
-                    المزيد  &nbsp;
-                    <i class="fas fa-sort-down"></i>
-                    <ul> <li>رياضات إلكترونية</li> </ul>
-                </li>
-                <li class="last">ألعاب</li>
-            </ul>
-          </div>
-          <div class="social">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-discord"></i>
-            <i class="fab fa-youtube"></i>
-          </div>
+      </div>
+      <input type="checkbox" name="" id="check" />
+      <label for="check">
+        <i class="far fa-stream mopile" id="open"></i>
+        <i class="far fa-times mopile" id="cancle"></i>
+      </label>
+      <div class="smheader">
+        <div class="emp"></div>
+        <div class="ul">
+          <ul dir="rtl">
+            <li>
+              قواعد البيانات &nbsp;
+              <i class="fas fa-sort-down"></i>
+              <ul>
+                <li>ألعاب</li>
+              </ul>
+            </li>
+            <li>
+              تكنولوجيا &nbsp;
+              <i class="fas fa-sort-down"></i>
+              <ul>
+                <li>سوفتوير</li>
+                <li>هاردوير</li>
+              </ul>
+            </li>
+            <li>
+              المزيد &nbsp;
+              <i class="fas fa-sort-down"></i>
+              <ul>
+                <li>رياضات إلكترونية</li>
+              </ul>
+            </li>
+            <li class="last">ألعاب</li>
+          </ul>
         </div>
-</header>
-<!-- End Header -->
+        <div class="social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-discord"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
 
-<!-- Home Section -->
-<section id="home">
-    <div class="container">
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container">
         <div class="net">
-            <span>
-                <i class="fas fa-chevron-left"></i>
-            </span>
-            <span>
-                <i class="fas fa-chevron-right"></i>
-            </span>
-            <div class="ph1">
-                <img src="img/SupjectImg/1-9-780x470.jpg" alt="">
-                <h2 dir="rtl">ما الجديد الان في PUBG Mobile تم اصدرا تحديث 2021</h2>
-                <p>منذ 21 ساعة</p>
-            </div>
-            <div class="ph2">
-                <img src="img/SupjectImg/call-of-duty-vanguard-780x470.jpeg" alt="">
-                <h2 dir="rtl">التحديث المليء بالمفاجئات في لعبه Call Of Duty</h2>
-                <p>منذ 21 ساعة</p>
-            </div>
-            <div class="ph3">
-                <img src="img/SupjectImg/cover-780x470.jpg" alt="">
-                <h2 dir="rtl">الكشف عن رميمك في Destroy All Humans 2</h2>
-                <p>منذ 21 ساعة</p>
-            </div>
-            <div class="ph4">
-                <img src="img/SupjectImg/How-to-get-FIFA-22-closed-beta-codes-780x470.jpeg" alt="">
-                <h2 dir="rtl">تحديث مليء بالمفاجئات في لعبه FIFA 2021</h2>
-                <p>منذ 21 ساعة</p>
-            </div>
-            <div class="ph5">
-                <img src="img/SupjectImg/WCCFwuchangfallenfeathers1-780x470.jpg" alt="">
-                <h2 dir="rtl">تحديث 1.6.0 في لعبة PUBG MOBILE مليء بالمفاجئات</h2>
-                <p>منذ 21 ساعة</p>
-            </div>
-            
-        </div>
-    </div>
-</section>
-<!-- End Home Section -->
-
-<!-- Video Section -->
-<section id="Video">
-    <div class="container">
-        <div class="net">
-            <div class="col1">
-                <div class="adrs">
-                    <p dir="rtl">اعلانات و فيديوهات الالعاب</p>
-                    <i class="fas fa-video"></i>
-                </div>
-                <div class="img">
-                    <span>
-                        <i class="fas fa-chevron-left"></i>
-                    </span>
-                    <span>
-                        <i class="fas fa-chevron-right"></i>
-                    </span>
-                    <img src="img/SupjectImg/rockstar-grand-theft-auto-cover-trevor.jpg" alt="">
-                    <div class="backfont">
-                        <p dir="rtl">سيتم تأجيل لعبة Battlefield 2042 حتى العام القادم</p>
-                        <p  dir="rtl">موعد إطلاق لعبة Sherlock Holmes: Chapter One</p>
-                        <p  dir="rtl">عرض للنسخة الجديدة للعبة GTA V على PS5</p>
-                        <p  dir="rtl">الإعلان عن لعبة WipEout Rush</p>
-                        <p  dir="rtl">مقطع تشويقي للعبة Death Stranding Director’s Cut</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col2">
-                <div class="adrs">
-                    <p dir="rtl">تابعنا علي</p>
-                </div>
-                <div class="sochial-net">
-                    <div class="twitter">
-                        <i class="fab fa-twitter"></i>
-                        <div class="ptool">
-                            <p class="p1">10.000</p>
-                            <p dir="rtl" class="p2">متابع</p>
-                        </div>
-                    </div>
-                    <div class="facebook">
-                        <i class="fab fa-facebook"></i>
-                        <div class="ptool">
-                            <p class="p1">7500</p>
-                            <p dir="rtl" class="p2">متابع</p>
-                        </div>
-                    </div>
-                    <div class="instgram">
-                        <i class="fab fa-instagram"></i>
-                        <div class="ptool">
-                            <p class="p1">25.500</p>
-                            <p dir="rtl"  class="p2">متابع</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col3">
-                <div class="adrs">
-                    <p>اخبار علي السريع</p>
-                </div>
-                <div class="img">
-                    <span>
-                        <i class="fas fa-chevron-left"></i>
-                    </span>
-                    <span>
-                        <i class="fas fa-chevron-right"></i>
-                    </span>
-                    <img src="img/SupjectImg/Far-Cry-3-Vaas-Desktop-Wallpaper-780x470.jpg" alt="">
-                    <div class="p1">
-                        <i class="far fa-clock"></i>
-                        <p dir="rtl">منذ 3 ايام</p>
-                    </div>
-                    <p dir="rtl">خلال ايام ستكون قادر علي استخدام Xbox !</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Video Section -->
-
-<!-- Reviews Section -->
-<section id="Reviews">
-    <div class="container">
-        <div class="grid-net">
-            <div class="chevron L">
+          <span>
             <i class="fas fa-chevron-left"></i>
-            </div>
-            <article class="ar1">
-                <div class="circle">9.5</div>
-                <div class="img">
-                    <img src="img/SupjectImg/new-world-wallpaper-scaled-2-780x470.jpg" alt="">
-                </div>
-                <div dir="rtl" class="text">
-                    <p class="date">29 يوليو، 2021</p>
-                    <div class="show">مراجعة نسخة البيتا المُغلقة للعبة New World</div>
-                    <div class="shide">نقدم لكم تحفة Amazon الجديدة، أهلًا بكم</div>
-                    <div class="hide">في مراجعة لعبة New World. بعدما واجهت شركة Amazon العديد من المشاكل في…</div>
-                </div>
-            </article>
-            <article class="ar2">
-                <div class="circle">10</div>
-                <div class="img">
-                    <img src="img/SupjectImg/Scarlet-Nexus-780x470.jpg" alt="">
-                </div>
-                <div dir="rtl" class="text">
-                    <p class="date">15 يوليو، 2021</p>
-                    <div class="show">مراجعة لعبة Scarlet Nexus</div>
-                    <div class="shide">نقدم لكم تحفة Bandai Namco الجديدة،</div>
-                    <div class="hide">أهلاً بكم في مراجعة لعبة Scarlet Nexus. نبذة عن اللعبة: لعبة Scarlet Nexus تُصنف…</div>
-                </div>
-            </article>
-            <article class="ar3">
-                <div class="circle">8.2</div>
-                <div class="img">
-                    <img src="img/SupjectImg/IT2PRE_XB1_PROMO_Keyart_1920x1080-780x470.jpg" alt="">
-                </div>
-                <div dir="rtl" class="text">
-                    <p class="date">منذ 3 ايام</p>
-                    <div class="show">مراجعة لعبة It Takes Two</div>
-                    <div class="shide">الاعلان عن اللعبة It Takes Two</div>
-                    <div class="hide">حدث EA Play قام الناشر Electronic Arts برفقة ستوديو Hazelight المطور للعبة…</div>
-                </div>
-            </article>
-            <div class="chevron R">
-                <i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="dots">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-            </div>
+          </span>
+          <span>
+            <i class="fas fa-chevron-right"></i>
+          </span>
+          <div class="ph1">
+            <img src="img/SupjectImg/1-9-780x470.jpg" alt="" />
+            <h2 dir="rtl">ما الجديد الان في PUBG Mobile تم اصدرا تحديث 2021</h2>
+            <p>منذ 21 ساعة</p>
+          </div>
+          <div class="ph2">
+            <img
+              src="img/SupjectImg/call-of-duty-vanguard-780x470.jpeg"
+              alt=""
+            />
+            <h2 dir="rtl">التحديث المليء بالمفاجئات في لعبه Call Of Duty</h2>
+            <p>منذ 21 ساعة</p>
+          </div>
+          <div class="ph3">
+            <img src="img/SupjectImg/cover-780x470.jpg" alt="" />
+            <h2 dir="rtl">الكشف عن رميمك في Destroy All Humans 2</h2>
+            <p>منذ 21 ساعة</p>
+          </div>
+          <div class="ph4">
+            <img
+              src="img/SupjectImg/How-to-get-FIFA-22-closed-beta-codes-780x470.jpeg"
+              alt=""
+            />
+            <h2 dir="rtl">تحديث مليء بالمفاجئات في لعبه FIFA 2021</h2>
+            <p>منذ 21 ساعة</p>
+          </div>
+          <div class="ph5">
+            <img
+              src="img/SupjectImg/WCCFwuchangfallenfeathers1-780x470.jpg"
+              alt=""
+            />
+            <h2 dir="rtl">تحديث 1.6.0 في لعبة PUBG MOBILE مليء بالمفاجئات</h2>
+            <p>منذ 21 ساعة</p>
+          </div>
         </div>
-    </div>
-</section>
-<!-- End Reviews Section -->
+      </div>
+    </section>
+    <!-- End Home Section -->
 
-<!-- Fire View Section -->
-<section id="View">
-    <div class="container">
+    <!-- Video Section -->
+    <section id="Video">
+      <div class="container">
+        <div class="net">
+          <div class="col1">
+            <div class="adrs">
+              <p dir="rtl">اعلانات و فيديوهات الالعاب</p>
+              <i class="fas fa-video"></i>
+            </div>
+            <div class="img">
+              <span>
+                <i class="fas fa-chevron-left"></i>
+              </span>
+              <span>
+                <i class="fas fa-chevron-right"></i>
+              </span>
+              <img
+                src="img/SupjectImg/rockstar-grand-theft-auto-cover-trevor.jpg"
+                alt=""
+              />
+              <div class="backfont">
+                <p dir="rtl">
+                  سيتم تأجيل لعبة Battlefield 2042 حتى العام القادم
+                </p>
+                <p dir="rtl">موعد إطلاق لعبة Sherlock Holmes: Chapter One</p>
+                <p dir="rtl">عرض للنسخة الجديدة للعبة GTA V على PS5</p>
+                <p dir="rtl">الإعلان عن لعبة WipEout Rush</p>
+                <p dir="rtl">
+                  مقطع تشويقي للعبة Death Stranding Director’s Cut
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="adrs">
+              <p dir="rtl">تابعنا علي</p>
+            </div>
+            <div class="sochial-net">
+              <div class="twitter">
+                <i class="fab fa-twitter"></i>
+                <div class="ptool">
+                  <p class="p1">10.000</p>
+                  <p dir="rtl" class="p2">متابع</p>
+                </div>
+              </div>
+              <div class="facebook">
+                <i class="fab fa-facebook"></i>
+                <div class="ptool">
+                  <p class="p1">7500</p>
+                  <p dir="rtl" class="p2">متابع</p>
+                </div>
+              </div>
+              <div class="instgram">
+                <i class="fab fa-instagram"></i>
+                <div class="ptool">
+                  <p class="p1">25.500</p>
+                  <p dir="rtl" class="p2">متابع</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col3">
+            <div class="adrs">
+              <p>اخبار علي السريع</p>
+            </div>
+            <div class="img">
+              <span>
+                <i class="fas fa-chevron-left"></i>
+              </span>
+              <span>
+                <i class="fas fa-chevron-right"></i>
+              </span>
+              <img
+                src="img/SupjectImg/Far-Cry-3-Vaas-Desktop-Wallpaper-780x470.jpg"
+                alt=""
+              />
+              <div class="p1">
+                <i class="far fa-clock"></i>
+                <p dir="rtl">منذ 3 ايام</p>
+              </div>
+              <p dir="rtl">خلال ايام ستكون قادر علي استخدام Xbox !</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Video Section -->
+
+    <!-- Reviews Section -->
+    <section id="Reviews">
+      <div class="container">
+        <div class="grid-net">
+          <div class="chevron L">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <article class="ar1">
+            <div class="circle">9.5</div>
+            <div class="img">
+              <img
+                src="img/SupjectImg/new-world-wallpaper-scaled-2-780x470.jpg"
+                alt=""
+              />
+            </div>
+            <div dir="rtl" class="text">
+              <p class="date">29 يوليو، 2021</p>
+              <div class="show">
+                مراجعة نسخة البيتا المُغلقة للعبة New World
+              </div>
+              <div class="shide">نقدم لكم تحفة Amazon الجديدة، أهلًا بكم</div>
+              <div class="hide">
+                في مراجعة لعبة New World. بعدما واجهت شركة Amazon العديد من
+                المشاكل في…
+              </div>
+            </div>
+          </article>
+          <article class="ar2">
+            <div class="circle">10</div>
+            <div class="img">
+              <img src="img/SupjectImg/Scarlet-Nexus-780x470.jpg" alt="" />
+            </div>
+            <div dir="rtl" class="text">
+              <p class="date">15 يوليو، 2021</p>
+              <div class="show">مراجعة لعبة Scarlet Nexus</div>
+              <div class="shide">نقدم لكم تحفة Bandai Namco الجديدة،</div>
+              <div class="hide">
+                أهلاً بكم في مراجعة لعبة Scarlet Nexus. نبذة عن اللعبة: لعبة
+                Scarlet Nexus تُصنف…
+              </div>
+            </div>
+          </article>
+          <article class="ar3">
+            <div class="circle">8.2</div>
+            <div class="img">
+              <img
+                src="img/SupjectImg/IT2PRE_XB1_PROMO_Keyart_1920x1080-780x470.jpg"
+                alt=""
+              />
+            </div>
+            <div dir="rtl" class="text">
+              <p class="date">منذ 3 ايام</p>
+              <div class="show">مراجعة لعبة It Takes Two</div>
+              <div class="shide">الاعلان عن اللعبة It Takes Two</div>
+              <div class="hide">
+                حدث EA Play قام الناشر Electronic Arts برفقة ستوديو Hazelight
+                المطور للعبة…
+              </div>
+            </div>
+          </article>
+          <div class="chevron R">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="dots">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Reviews Section -->
+
+    <!-- Fire View Section -->
+    <section id="View">
+      <div class="container">
         <div class="banner" dir="rtl">
-            <p> <i class="fas fa-fire"></i> الاكثر مشاهدة</p>
+          <p><i class="fas fa-fire"></i> الاكثر مشاهدة</p>
         </div>
         <div class="view-net" dir="rtl">
-            <div class="col1">
-                <div class="img">
-                    <img src="img/SupjectImg/5.jpg" alt="">
-                    <div class="text">
-                        <p class="back">مواصفات التشغيل</p>
-                        <p class="Addres">مواصفات تشغيل لعبة Valorant</p>
-                        <div class="more">
-                            <p class="account"><i class="fas fa-user-circle"></i> Ahmed FoR3oN</p>
-                            <p class="date"> <i class="fas fa-clock"></i> 3 مارس 2020</p>
-                        </div>
-                        <div class="morethan">
-                            <p class="comment"><i class="fad fa-comments"></i> 50</p>
-                            <p class="view"><i class="fas fa-fire"></i> 145,245</p>
-                        </div>
-                    </div>
+          <div class="col1">
+            <div class="img">
+              <img src="img/SupjectImg/5.jpg" alt="" />
+              <div class="text">
+                <p class="back">مواصفات التشغيل</p>
+                <p class="Addres">مواصفات تشغيل لعبة Valorant</p>
+                <div class="more">
+                  <p class="account">
+                    <i class="fas fa-user-circle"></i> Ahmed FoR3oN
+                  </p>
+                  <p class="date"><i class="fas fa-clock"></i> 3 مارس 2020</p>
                 </div>
+                <div class="morethan">
+                  <p class="comment"><i class="fad fa-comments"></i> 50</p>
+                  <p class="view"><i class="fas fa-fire"></i> 145,245</p>
+                </div>
+              </div>
             </div>
-            <div class="col2" dir="rtl">
-                <article class="art1">
-                    <div class="img">
-                        <img src="img/SupjectImg/ESrowJNVAAkU1qV.jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <div class="date">
-                            <p><i class="far fa-clock"></i> 21 مايو 2021</p>
-                        </div>
-                        <div class="addres">
-                            <p>مواصفات تشغيل لعبة WARZONE</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="art2">
-                    <div class="img">
-                        <img src="img/SupjectImg/WCCFgenshinimpact17-1536x864 (1).jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <div class="date">
-                            <p><i class="far fa-clock"></i> 21 مايو 2021</p>
-                        </div>
-                        <div class="addres">
-                            <p>متطلبات تشغيل لعبة Genshin Impact</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="art3">
-                    <div class="img">
-                        <img src="img/SupjectImg/Screenshot 2021-09-29 073221.png" alt="">
-                    </div>
-                    <div class="text">
-                        <div class="date">
-                            <p><i class="far fa-clock"></i> 5 مارس 2020</p>
-                        </div>
-                        <div class="addres">
-                            <p>AMD تطلق حسابًا رسميًا باللغة العربية</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="art4">
-                    <div class="img">
-                        <img src="img/SupjectImg/Battlefield-2042-hero-1-e1623301676618.jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <div class="date">
-                            <p><i class="far fa-clock"></i> 20 مارس 2020</p>
-                        </div>
-                        <div class="addres">
-                            <p>سيتم تأجيل لعبة Battlefield 2042 حتى العام القادم</p>
-                        </div>
-                    </div>
-                </article>
-            </div>
+          </div>
+          <div class="col2" dir="rtl">
+            <article class="art1">
+              <div class="img">
+                <img src="img/SupjectImg/ESrowJNVAAkU1qV.jpg" alt="" />
+              </div>
+              <div class="text">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> 21 مايو 2021</p>
+                </div>
+                <div class="addres">
+                  <p>مواصفات تشغيل لعبة WARZONE</p>
+                </div>
+              </div>
+            </article>
+            <article class="art2">
+              <div class="img">
+                <img
+                  src="img/SupjectImg/WCCFgenshinimpact17-1536x864 (1).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> 21 مايو 2021</p>
+                </div>
+                <div class="addres">
+                  <p>متطلبات تشغيل لعبة Genshin Impact</p>
+                </div>
+              </div>
+            </article>
+            <article class="art3">
+              <div class="img">
+                <img
+                  src="img/SupjectImg/Screenshot 2021-09-29 073221.png"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> 5 مارس 2020</p>
+                </div>
+                <div class="addres">
+                  <p>AMD تطلق حسابًا رسميًا باللغة العربية</p>
+                </div>
+              </div>
+            </article>
+            <article class="art4">
+              <div class="img">
+                <img
+                  src="img/SupjectImg/Battlefield-2042-hero-1-e1623301676618.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> 20 مارس 2020</p>
+                </div>
+                <div class="addres">
+                  <p>سيتم تأجيل لعبة Battlefield 2042 حتى العام القادم</p>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
-    </div>
-</section>
-<!-- End Fire View Section -->
+      </div>
+    </section>
+    <!-- End Fire View Section -->
 
-<!-- Sports Section -->
-<section id="Sports">
-    <div class="container" dir="rtl">
+    <!-- Sports Section -->
+    <section id="Sports">
+      <div class="container" dir="rtl">
         <div class="addres">
-            <p><i class="fas fa-fire"></i> رياضات الكترونيه</p>
+          <p><i class="fas fa-fire"></i> رياضات الكترونيه</p>
         </div>
         <article>
-            <div class="img">
-                <img src="img/SupjectImg/vampire-the-masquerade-battle-royale.jpg" alt="">
-                <div class="btn">
-                    <p>رياضات الكترونيه</p>
-                </div>
+          <div class="img">
+            <img
+              src="img/SupjectImg/vampire-the-masquerade-battle-royale.jpg"
+              alt=""
+            />
+            <div class="btn">
+              <p>رياضات الكترونيه</p>
             </div>
-            <div class="text">
-                <div class="smtext-net">
-                    <div class="right">
-                        <div class="account">
-                            <p> <i class="fas fa-user-circle"></i> Ahmed FoR3oN </p>
-                        </div>
-                        <div class="date">
-                            <p><i class="far fa-clock"></i> منذ اسبوع</p>
-                        </div>
-                        </div>
-                        <div class="left">
-                            <div class="comment">
-                                <p> <i class="fad fa-comments"></i> +99</p>
-                            </div>
-                            <div class="view">
-                                <p> <i class="fas fa-fire"></i> 190,000</p>
-                            </div>
-                    </div>
+          </div>
+          <div class="text">
+            <div class="smtext-net">
+              <div class="right">
+                <div class="account">
+                  <p><i class="fas fa-user-circle"></i> Ahmed FoR3oN</p>
                 </div>
-                <div class="addresart">
-                    <p>رقم قياسي جديد يُضاف للعبة Bloodhunt</p>
+                <div class="date">
+                  <p><i class="far fa-clock"></i> منذ اسبوع</p>
                 </div>
-                <div class="title">
-                    <p>أعلن فريق التطوير Mediatonic على الموقع الرسمي عن الرقم القياسي الجديد الذي حققته لعبة Bloodhunt. حققت اللعبة رقمًا قياسيًا…</p>
+              </div>
+              <div class="left">
+                <div class="comment">
+                  <p><i class="fad fa-comments"></i> +99</p>
                 </div>
-                <div class="btn">
-                    <p>اكمل القراءه <i class="far fa-angle-double-left"></i></p>
+                <div class="view">
+                  <p><i class="fas fa-fire"></i> 190,000</p>
                 </div>
+              </div>
             </div>
-        </article>
-    </div>
-</section>
-<!-- End Sports Section -->
-
-<!-- More Section -->
-<section id="More">
-    <div class="container">
-        <div class="net"  dir="rtl">
-            <div class="articels">
-                <article>
-                   <div class="top">
-                    <div class="date">
-                        <p><i class="far fa-clock"></i> منذ يومين</p>
-                    </div>
-                    <div class="views">
-                        <p><i class="fas fa-fire"></i> 500</p>
-                    </div>
-                   </div>
-                    <div class="img">
-                        <img src="img/SupjectImg/fall-guys-780x470.jpg" alt="">
-                    </div>
-                    <div class="bottom">
-                        <div class="addres">
-                        <p>رقم قياسي جديد يُضاف للعبة Fall Guys</p>
-                    </div>
-                    <div class="title">
-                        <p>أعلن استوديو Arkane في بداية الشهر الماضي عن اكتمال مرحلة التطوير لعبة…</p>
-                    </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="top">
-                        <div class="date">
-                            <p><i class="far fa-clock"></i> منذ اسبوع</p>
-                        </div>
-                        <div class="views">
-                            <p><i class="fas fa-fire"></i> 25,000</p>
-                        </div>
-                    </div>
-                    <div class="img">
-                        <img src="img/SupjectImg/wp7578067-deathloop-2020-wallpapers-scaled-350x250.jpg" alt="">
-                    </div>
-                    <div class="bottom">
-                        <div class="addres">
-                            <p>متطلبات تشغيل لعبة Deathloop</p>
-                        </div>
-                        <div class="title">
-                            <p>قامت شركة Rogue Games بالإعلان رسميًا عن لعبة WipEout Rush القادمة للأجهزة…</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="top">
-                        <div class="date">
-                            <p><i class="far fa-clock"></i> منذ اسبوع</p>
-                        </div>
-                        <div class="views">
-                            <p><i class="fas fa-fire"></i> 25,250</p>
-                        </div>
-                    </div>
-                    <div class="img">
-                        <img src="img/SupjectImg/gameplay-far-cry-6-350x250.jpg" alt="">
-                    </div>
-                    <div class="bottom">
-                        <div class="addres">
-                            <p>مواصفات تشغيل لعبة Far Cry 6</p>
-                        </div>
-                        <div class="title">
-                            <p>مواصفات تشغيل لعبة Far Cry 6. توصي Ubisoft بتحميل Far Cry 6…</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                   <div class="top">
-                    <div class="date">
-                        <p><i class="far fa-clock"></i> منذ 4 ايام</p>
-                    </div>
-                    <div class="views">
-                        <p><i class="fas fa-fire"></i> 20,000</p>
-                    </div>
-                   </div>
-                    <div class="img">
-                        <img src="img/SupjectImg/capsule_616x353.jpg" alt="">
-                    </div>
-                    <div class="bottom">
-                        <div class="addres">
-                            <p>رسميًا: سنرى ريماستر للعبة Alan Wake هذا العام</p>
-                        </div>
-                        <div class="title">
-                            <p>قامت شركة Rogue Games بالإعلان رسميًا عن لعبة WipEout Rush القادمة للأجهزة…</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="top">
-                        <div class="date">
-                            <p><i class="far fa-clock"></i> الان</p>
-                        </div>
-                        <div class="views">
-                            <p><i class="fas fa-fire"></i> 50</p>
-                        </div>
-                    </div>
-                    <div class="img">
-                        <img src="img/SupjectImg/Screenshot 2021-09-29 083344.png" alt="">
-                    </div>
-                    <div class="bottom">
-                        <div class="addres">
-                            <p> Konami تعلن عن إيقاف خوادمهم العام القادم!</p>
-                        </div>
-                        <div class="title">
-                            <p>أعلنت شركة Konami عن إيقاف خوادم Metal Gear Solid 5 خلال إعلان…</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="top">
-                        <div class="date">
-                            <p><i class="far fa-clock"></i> 14 مارس,2021</p>
-                        </div>
-                        <div class="views">
-                            <p><i class="fas fa-fire"></i> 5100</p>
-                        </div>
-                    </div>
-                    <div class="img">
-                        <img src="img/SupjectImg/111084_600x338.jpg" alt="">
-                    </div>
-                    <div class="bottom">
-                        <div class="addres">
-                            <p>عرض للعبة الـ Battle Royal المجانية Bloodhunt</p>
-                        </div>
-                        <div class="title">
-                            <p>أحد العروض أيضاً التي تم عرضها في حدث PlayStation Showcase 2021 هو…</p>
-                        </div>
-                    </div>
-                </article>
+            <div class="addresart">
+              <p>رقم قياسي جديد يُضاف للعبة Bloodhunt</p>
+            </div>
+            <div class="title">
+              <p>
+                أعلن فريق التطوير Mediatonic على الموقع الرسمي عن الرقم القياسي
+                الجديد الذي حققته لعبة Bloodhunt. حققت اللعبة رقمًا قياسيًا…
+              </p>
             </div>
             <div class="btn">
-                <p>تحميل المزيد</p>
+              <p>اكمل القراءه <i class="far fa-angle-double-left"></i></p>
             </div>
-        </div>
-    </div>
-</section>
-<!-- End More Section -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- End Sports Section -->
 
-<!-- Fotter -->
-<fotter id="Fotter" dir="rtl">
-    <div class="container">
+    <!-- More Section -->
+    <section id="More">
+      <div class="container">
+        <div class="net" dir="rtl">
+          <div class="articels">
+            <article>
+              <div class="top">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> منذ يومين</p>
+                </div>
+                <div class="views">
+                  <p><i class="fas fa-fire"></i> 500</p>
+                </div>
+              </div>
+              <div class="img">
+                <img src="img/SupjectImg/fall-guys-780x470.jpg" alt="" />
+              </div>
+              <div class="bottom">
+                <div class="addres">
+                  <p>رقم قياسي جديد يُضاف للعبة Fall Guys</p>
+                </div>
+                <div class="title">
+                  <p>
+                    أعلن استوديو Arkane في بداية الشهر الماضي عن اكتمال مرحلة
+                    التطوير لعبة…
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="top">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> منذ اسبوع</p>
+                </div>
+                <div class="views">
+                  <p><i class="fas fa-fire"></i> 25,000</p>
+                </div>
+              </div>
+              <div class="img">
+                <img
+                  src="img/SupjectImg/wp7578067-deathloop-2020-wallpapers-scaled-350x250.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="bottom">
+                <div class="addres">
+                  <p>متطلبات تشغيل لعبة Deathloop</p>
+                </div>
+                <div class="title">
+                  <p>
+                    قامت شركة Rogue Games بالإعلان رسميًا عن لعبة WipEout Rush
+                    القادمة للأجهزة…
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="top">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> منذ اسبوع</p>
+                </div>
+                <div class="views">
+                  <p><i class="fas fa-fire"></i> 25,250</p>
+                </div>
+              </div>
+              <div class="img">
+                <img
+                  src="img/SupjectImg/gameplay-far-cry-6-350x250.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="bottom">
+                <div class="addres">
+                  <p>مواصفات تشغيل لعبة Far Cry 6</p>
+                </div>
+                <div class="title">
+                  <p>
+                    مواصفات تشغيل لعبة Far Cry 6. توصي Ubisoft بتحميل Far Cry 6…
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="top">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> منذ 4 ايام</p>
+                </div>
+                <div class="views">
+                  <p><i class="fas fa-fire"></i> 20,000</p>
+                </div>
+              </div>
+              <div class="img">
+                <img src="img/SupjectImg/capsule_616x353.jpg" alt="" />
+              </div>
+              <div class="bottom">
+                <div class="addres">
+                  <p>رسميًا: سنرى ريماستر للعبة Alan Wake هذا العام</p>
+                </div>
+                <div class="title">
+                  <p>
+                    قامت شركة Rogue Games بالإعلان رسميًا عن لعبة WipEout Rush
+                    القادمة للأجهزة…
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="top">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> الان</p>
+                </div>
+                <div class="views">
+                  <p><i class="fas fa-fire"></i> 50</p>
+                </div>
+              </div>
+              <div class="img">
+                <img
+                  src="img/SupjectImg/Screenshot 2021-09-29 083344.png"
+                  alt=""
+                />
+              </div>
+              <div class="bottom">
+                <div class="addres">
+                  <p>Konami تعلن عن إيقاف خوادمهم العام القادم!</p>
+                </div>
+                <div class="title">
+                  <p>
+                    أعلنت شركة Konami عن إيقاف خوادم Metal Gear Solid 5 خلال
+                    إعلان…
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="top">
+                <div class="date">
+                  <p><i class="far fa-clock"></i> 14 مارس,2021</p>
+                </div>
+                <div class="views">
+                  <p><i class="fas fa-fire"></i> 5100</p>
+                </div>
+              </div>
+              <div class="img">
+                <img src="img/SupjectImg/111084_600x338.jpg" alt="" />
+              </div>
+              <div class="bottom">
+                <div class="addres">
+                  <p>عرض للعبة الـ Battle Royal المجانية Bloodhunt</p>
+                </div>
+                <div class="title">
+                  <p>
+                    أحد العروض أيضاً التي تم عرضها في حدث PlayStation Showcase
+                    2021 هو…
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="btn">
+            <p>تحميل المزيد</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End More Section -->
+
+    <!-- Fotter -->
+    <fotter id="Fotter" dir="rtl">
+      <div class="container">
         <div class="net">
-            <div class="about">
-                <div class="img">
-                    <img src="img/icon/icon.png" alt="">
-                </div>
-                <div class="text">
-                    <div class="head">
-                        <h1>راسكو ويب</h1>
-                    </div>
-                    <div class="title">
-                        <p>واحد من أكبر المجتمعات التقنية فى الشرق الأوسط تتحدث عن أحدث التقنيات فى مجال الهاردوير والألعاب والهواتف</p>
-                        <p>تصميم احمد اشرف <span class="sp1">( فرعون )</span> <span class="sp2">&copy;</span> </p>
-                    </div>
-                </div>
+          <div class="about">
+            <div class="img">
+              <img src="img/icon/icon.png" alt="" />
             </div>
-            <div class="link">
-                <div class="head">
-                    <p>القائمه</p>
-                </div>
-                <div class="ul">
-                    <ul>
-                        <li>العاب</li>
-                        <li>سوفتوير</li>
-                        <li>المزيد</li>
-                        <li>ألعاب</li>
-                    </ul>
-                    <ul>
-                        <li>قواعد البيانات </li>
-                        <li>تكنولوجيا </li>
-                        <li>هاردوير </li>
-                        <li>رياضات إلكترونية </li>
-                    </ul>
-                </div>
+            <div class="text">
+              <div class="head">
+                <h1>راسكو ويب</h1>
+              </div>
+              <div class="title">
+                <p>
+                  واحد من أكبر المجتمعات التقنية فى الشرق الأوسط تتحدث عن أحدث
+                  التقنيات فى مجال الهاردوير والألعاب والهواتف
+                </p>
+                <p>
+                  تصميم احمد اشرف <span class="sp1">( فرعون )</span>
+                  <span class="sp2">&copy;</span>
+                </p>
+              </div>
             </div>
-            <div class="sochial">
-                <div class="header">
-                    <p>تابعني علي</p>
-                </div>
-                <div class="linkes">
-                    <i class="fab fa-facebook sochial "></i>
-                    <i class="fab fa-twitter sochial"></i>
-                    <i class="fab fa-youtube sochial"></i>
-                    <i class="fab fa-instagram sochial"></i>
-                </div>
+          </div>
+          <div class="link">
+            <div class="head">
+              <p>القائمه</p>
             </div>
+            <div class="ul">
+              <ul>
+                <li>العاب</li>
+                <li>سوفتوير</li>
+                <li>المزيد</li>
+                <li>ألعاب</li>
+              </ul>
+              <ul>
+                <li>قواعد البيانات</li>
+                <li>تكنولوجيا</li>
+                <li>هاردوير</li>
+                <li>رياضات إلكترونية</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sochial">
+            <div class="header">
+              <p>تابعني علي</p>
+            </div>
+            <div class="linkes">
+              <i class="fab fa-facebook sochial"></i>
+              <i class="fab fa-twitter sochial"></i>
+              <i class="fab fa-youtube sochial"></i>
+              <i class="fab fa-instagram sochial"></i>
+            </div>
+          </div>
         </div>
+      </div>
+    </fotter>
+    <!-- End Fotter -->
+
+    <!-- Scrol To Top -->
+    <div class="scrol">
+      <a href="#"><i class="fas fa-angle-double-up"></i></a>
     </div>
-</fotter>
-<!-- End Fotter -->
-
-                                <!-- Components -->
-
-<!-- Scrol To Top -->
-<div class="scrol">
-    <a href="#"><i class="fas fa-angle-double-up"></i></a>
-</div>
-<!-- End Scrol To Top -->
-
-</body>
+    <!-- End Scrol To Top -->
+  </body>
 </html>
