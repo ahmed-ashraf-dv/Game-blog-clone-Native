@@ -714,6 +714,7 @@ header label {
 #Reviews .grid-net .ar1,
 .grid-net .ar2,
 .grid-net .ar3 {
+  width: fit-content;
   margin-top: 15px;
   display: grid;
   justify-content: center;
